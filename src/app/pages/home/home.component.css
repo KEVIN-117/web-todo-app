@@ -1,0 +1,81 @@
+:root{
+    --bg-color: #020e21;
+    color-scheme: light dark;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.set-text-shadow{
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.set-text-border{
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #264286;
+    text-shadow: 0 0 10px #304a8a, 0 0 20px #304a8a, 0 0 30px #304a8a;
+}
+
+.set-gradient-bg{
+
+    /* bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%*/
+    background: linear-gradient(to top, #0f1e41 20%, #1d306e 30%, #2e409d 50%, transparent 100%);
+}
+
+.custom-font{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom-font:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+}
+.custom-font:nth-child(2){
+    font-family: "Jersey 10", serif;
+}
+.custom-font:nth-child(3){
+    font-family: "Silkscreen",serif;
+}
+.custom-font:nth-child(4){
+    font-family: "tangerine", serif;
+}
+.custom-font:nth-child(5){
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.custom-font:nth-child(6){
+    font-family: "Smokum", serif;
+}
+.custom-font:nth-child(7){
+    font-family: "Nosifer", serif;
+}
+.custom-font:nth-child(8){
+    font-family: "Bebas Neue", serif;
+}
+.custom-font:nth-child(9){
+    font-family: "Metal Mania", serif;
+}
+.custom-font:nth-child(10){
+    font-family: "Ysabeau SC", serif;
+}
+
+
+.gradient-border{
+    border-image: linear-gradient(to top, transparent 20%, #0d1f47 30%, #1d3268 50%, #3d5492 100%) 1;
+}
+
+.information{
+
+    mix-blend-mode: screen;
+    background: rgba(0,0,0,0.5) url("../../../assets/hero.svg");
+    background-size: cover;
+    backface-visibility: hidden;
+}
+
+.set-bg-opacity {
+    background: rgba(0,0,0,0.5);
+}
