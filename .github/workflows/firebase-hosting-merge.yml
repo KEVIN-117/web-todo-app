@@ -7,6 +7,8 @@ on:
     branches:
       - main
 jobs:
+  env:
+    FIREBASE_CLI_EXPERIMENTAL_AUTO_EXPERIMENTS: true
   install_firebase_cli:
     runs-on: ubuntu-latest
     steps:
@@ -30,3 +32,6 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TAILWIND_ANGULAR }}
           channelId: live
           projectId: tailwind-angular
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
+
