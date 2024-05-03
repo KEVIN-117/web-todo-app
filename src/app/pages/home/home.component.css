@@ -11,7 +11,6 @@ body{
 
 .set-text-shadow{
     text-shadow: 1px 1px 1px #000;
-
 }
 
 .set-text-border{
@@ -78,4 +77,13 @@ body{
 
 .set-bg-opacity {
     background: rgba(0,0,0,0.5);
+}
+
+
+.set-blue-bg-opacity{
+    background: rgba(0, 64, 222, 0.5);
+}
+
+.set-mask-image{
+  mask-image: linear-gradient(black 20%, black 20%, black 20%, black 20%, transparent)
 }
