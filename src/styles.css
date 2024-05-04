@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root{
-  color-scheme: light dark;
+  --bg-primary: #020e21;
 }
 
 body{
-  background: #020e21;
+  background: var(--bg-primary);
 }
+
+

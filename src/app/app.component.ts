@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import {HeaderComponent} from "./shared/header/header.component";
 import {FooterComponent} from "./shared/footer/footer.component";
+import {CotextServiceService} from "./services/cotext-service.service";
 
 @Component({
   selector: 'app-root',
@@ -12,5 +13,8 @@ import {FooterComponent} from "./shared/footer/footer.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
+  themeContext: CotextServiceService;
+  constructor(themeContext: CotextServiceService) {
+    this.themeContext = themeContext;
+  }
 }
