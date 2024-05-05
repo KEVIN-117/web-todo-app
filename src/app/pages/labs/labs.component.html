@@ -1,0 +1,59 @@
+<body class="md:flex block relative gap-2 ">
+  <aside class="md:h-screen h-auto md:w-[10%] w-full flex flex-col md:border-r rounded-r-xl border-blue-600 md:gap-5 gap-5 px-1">
+    <nav class="">
+      <div class="flex flex-row md:flex-col md:justify-center justify-between items-center border border-blue-600 bg-blue-600/25 rounded-xl">
+        <div class="block p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+            <linearGradient id="_r_aP5JxeTUbgl5L40n7Ca_NU48HGBGk0Do_gr1" x1="32" x2="32" y1="22.915" y2="39.482" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6dc7ff"></stop><stop offset="1" stop-color="#e6abff"></stop></linearGradient><polygon fill="url(#_r_aP5JxeTUbgl5L40n7Ca_NU48HGBGk0Do_gr1)" points="32,24 16,31 32,40 48,31"></polygon><linearGradient id="_r_aP5JxeTUbgl5L40n7Cb_NU48HGBGk0Do_gr2" x1="32" x2="32" y1="4.319" y2="56.536" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#_r_aP5JxeTUbgl5L40n7Cb_NU48HGBGk0Do_gr2)" d="M15.979,32.214l15.029,8.588c0.306,0.174,0.648,0.261,0.991,0.261s0.686-0.087,0.992-0.262 l15.028-8.588c0.473-0.271,0.819-0.729,0.949-1.257c0.131-0.528,0.038-1.094-0.254-1.553L33.687,5.789 c-0.369-0.58-1-0.926-1.687-0.926c-0.688,0-1.318,0.346-1.688,0.926L15.284,29.404c-0.292,0.459-0.385,1.024-0.254,1.553 C15.16,31.486,15.507,31.944,15.979,32.214z M17.598,30.838L31,25.477v13.017L17.598,30.838z M33,25.477l13.4,5.36L33,38.495 V25.477z M45.71,28.407L33,23.323V8.434L45.71,28.407z M31,8.434v14.889l-12.71,5.084L31,8.434z"></path><linearGradient id="_r_aP5JxeTUbgl5L40n7Cc_NU48HGBGk0Do_gr3" x1="32" x2="32" y1="4.319" y2="56.536" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#_r_aP5JxeTUbgl5L40n7Cc_NU48HGBGk0Do_gr3)" d="M50.178,35.027c-0.319-0.354-0.846-0.434-1.255-0.19L32,44.923L15.077,34.837 c-0.409-0.245-0.935-0.166-1.255,0.19c-0.319,0.355-0.344,0.886-0.058,1.268L30.39,58.5c0.381,0.518,0.968,0.814,1.61,0.814 s1.229-0.296,1.605-0.808l16.63-22.211C50.521,35.913,50.497,35.382,50.178,35.027z M18.396,39.143L31,46.655v9.323L18.396,39.143z M33,55.968v-9.313l12.602-7.511L33,55.968z"></path>
+          </svg>
+        </div>
+        <button (click)="toggleTheme()" class="p-4">
+          <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M13 3a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0V3ZM6.343 4.929A1 1 0 0 0 4.93 6.343l1.414 1.414a1 1 0 0 0 1.414-1.414L6.343 4.929Zm12.728 1.414a1 1 0 0 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 1.414 1.414l1.414-1.414ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-9 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H3Zm16 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2ZM7.757 17.657a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414Zm9.9-1.414a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM13 19a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0v-2Z" clip-rule="evenodd"/>
+          </svg>
+        </button>
+      </div>
+
+      <ul class="md:block flex justify-center items-start">
+        <li class="border border-blue-600 bg-blue-600/25 hover:bg-blue-600 md:flex-auto flex-1 md:rounded-xl md:first:my-2 md:last:my-2 mt-2 first:rounded-l-xl last:rounded-r-xl">
+          <a class="flex md:justify-between justify-center items-center w-full h-full gap-5 py-4 px-5 text-gray-800 dark:text-white hover:text-slate-50" routerLink="signal">
+            <svg class="w-6 h-6 hover:text-slate-50k:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12v4m0 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 0v2a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V8m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+            </svg>
+            <span class="md:block hidden">Signal</span>
+          </a>
+        </li>
+        <li class="border border-blue-600 bg-blue-600/25 hover:bg-blue-600 md:flex-auto flex-1 md:rounded-xl md:first:my-2 md:last:my-2 mt-2 first:rounded-l-xl last:rounded-r-xl">
+          <a class="flex md:justify-between justify-center items-center w-full h-full gap-5 py-4 px-5 text-gray-800 dark:text-white hover:text-slate-50" routerLink="directives">
+            <svg class="w-6 h-6 hover:text-slate-50k:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+            </svg>
+            <span class="md:block hidden">Directives</span>
+          </a>
+        </li>
+        <li class="border border-blue-600 bg-blue-600/25 hover:bg-blue-600 md:flex-auto flex-1 md:rounded-xl md:first:my-2 md:last:my-2 mt-2 first:rounded-l-xl last:rounded-r-xl">
+          <a class="flex md:justify-between justify-center items-center w-full h-full gap-5 py-4 px-5 text-gray-800 dark:text-white hover:text-slate-50" routerLink="events">
+            <svg class="w-6 h-6 hover:text-slate-50 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z"/>
+            </svg>
+
+            <span class="md:block hidden">Events</span>
+          </a>
+        </li>
+        
+
+      </ul>
+    </nav>
+
+    <a class="mt-auto group border border-red-600 bg-red-600/25 hover:bg-red-600 py-4 px-5 rounded-xl text-red-600 hover:text-slate-50 flex justify-between gap-5 text-center" routerLink="/">
+      <svg class="w-6 h-6 text-red-600 group-hover:text-slate-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd" d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z" clip-rule="evenodd"/>
+      </svg>
+      Home
+    </a>
+  </aside>
+
+  <main class="flex-1 block dark:text-slate-50 text-sky-600 p-3 border border-blue-600 rounded-xl">
+    <router-outlet></router-outlet>
+  </main>
+</body>

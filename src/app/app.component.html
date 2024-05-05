@@ -1,8 +1,5 @@
-
-<body [ngClass]="themeContext.getTheme() === 'light'? 'dark dark:bg-[#020e21]': 'light bg-white'">
-  <app-header></app-header>
-
-  <router-outlet></router-outlet>
-
-  <app-footer></app-footer>
+<body [ngClass]="themeContext.getTheme() === 'light'? 'dark': 'light'">
+  <main class="dark:bg-[#020e21] bg-white">
+    <router-outlet></router-outlet>
+  </main>
 </body>

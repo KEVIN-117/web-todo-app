@@ -1,4 +1,4 @@
-import {Injectable, signal} from '@angular/core';
+import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +23,7 @@ export class CotextServiceService {
     this._theme = 'light';
     this.saveLocalStorage()
   }
-  
+
   saveLocalStorage() {
     localStorage.setItem('theme', this._theme);
   }

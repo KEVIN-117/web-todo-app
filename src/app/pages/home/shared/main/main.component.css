@@ -29,7 +29,7 @@
 }
 
 .information{
-  background: url("../../../assets/hero.svg");
+  background: url("../../../../../assets/hero.svg");
   background-size: cover;
   backface-visibility: hidden;
 }

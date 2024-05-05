@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import {HeaderComponent} from "./shared/header/header.component";
-import {FooterComponent} from "./shared/footer/footer.component";
+import {HeaderComponent} from "./pages/home/shared/header/header.component";
+import {FooterComponent} from "./pages/home/shared/footer/footer.component";
 import {CotextServiceService} from "./services/cotext-service.service";
 
 @Component({

@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root{
   --bg-primary: #020e21;
 }
 
-body{
-  background: var(--bg-primary);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 

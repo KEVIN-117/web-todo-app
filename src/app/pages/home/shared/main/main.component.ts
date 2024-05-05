@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {CotextServiceService} from "../../services/cotext-service.service";
+import {CotextServiceService} from "../../../../services/cotext-service.service";
 
 @Component({
   selector: 'app-main',
